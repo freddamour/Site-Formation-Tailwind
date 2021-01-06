@@ -1,20 +1,19 @@
 {
-  "name": "siteformationtailwind",
+  "name": "SiteDepart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss build style.css -o output.css",
-    "production": "cross-env NODE_ENV=production postcss style.css -o output.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss build style.css -o output.css"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.0.4",
+    "autoprefixer": "^10.1.0",
     "cross-env": "^7.0.3",
-    "postcss": "^8.1.10",
+    "postcss": "^8.2.2",
     "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.2"
   }
 }
